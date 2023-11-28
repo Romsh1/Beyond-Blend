@@ -1,0 +1,266 @@
+/*
+Author: Romika Chaudhary
+File Name: style.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+	background-color: #F8F0E5;
+}
+
+img, video {
+	max-width: 100%;
+	display: block;
+}
+
+/*Style rules for index */
+
+.welImg {
+    padding-left: 20px;
+  }
+  
+  .welMsg {
+    padding-left: 70px;
+    text-align: center;
+  }
+  
+  .prodImg {
+    font-size: larger;
+    padding-left: 70px;
+    text-align: justify;
+  }
+  
+  .prodMsg {
+    padding-left: 0 auto;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  
+/*Style rules for specials page*/
+#fchop, #pblend, #cblend {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+    text-align: justify;
+    }
+  
+  #fchop, #pblend, #cblend, p {
+    letter-spacing: -1px;
+  }
+  
+  hr.dotted {
+      border-top: 3px dotted #bbb;
+    }
+  
+  header h1 {
+    font-style: italic;
+    color: #3498db;
+  }
+
+/* Style rule for box sizing applies to all elements */
+* {
+	box-sizing: border-box;
+}
+
+/* Style rules for mobile viewport */
+
+/* style rules for header */
+header {
+	top: 0;
+	background-color: #F8F0E5;
+	height: 190px;
+}
+
+header img{
+	margin: 0 auto;
+}
+
+
+
+
+/* style rules for footer content */
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	color: #1a0101;
+	padding: 0 1em;
+}
+
+footer p a {
+	color: #1a0101;
+	text-decoration: none;
+}
+
+
+/* style rules for navigation area */
+nav {
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	font-size: 1.75em;
+	font-family: 'Francois One', sans-serif;
+	border-top: 1px solid #350202;	
+}
+
+nav li:first-child{
+	border-top: none;
+}
+
+
+nav li a {
+		display: block;
+		color: #1a0101;
+		padding: 0.5em 1em;
+		text-decoration: none;
+ }
+ 
+
+
+/* style rules for main content */
+main {
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.15em;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.h3{
+	text-align: center;
+}
+
+/* style rule for special in weekly and product of the week */
+#clean, #oralb, #pclean {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#info {
+    clear: left;
+    padding: 1% 2%;
+}
+
+/*Style rules for page*/
+.welcome, .product {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 550px;
+    padding-top: 30px;
+	font-size: 20px;
+  }
+
+/* rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+	/* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+header {
+	padding-bottom: 2%;
+}
+
+/* Tablet Viewport: Style rules for nav area */
+nav li {
+	border-top: none;
+	display: inline-block;
+	border-right: 1px solid #fff;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+nav li a {
+	padding: 0.1em 0.75em;
+}
+
+/* Tablet viewport: style rules for main content area */
+main ul {
+	margin: 0 0 4% 10%;
+}
+
+}
+
+
+/* Media query for Desktop viewport */
+@media screen and (min-width: 1015px), print {
+	
+	/* Desktop Viewport: Style rule header */
+	header {
+		width: 25%;
+		float: left;
+		padding-bottom: 0;
+	}
+	
+	/* Desktop Viewport: Style rules for nav area */
+	nav {
+		float: right;
+		width: 70%;
+		margin: 4em 1em 0 0;
+	}
+	
+	nav ul {
+		text-align: right;
+	}
+	
+	nav li {
+		border: none;
+	}
+	
+	nav li a {
+		padding: 0.5em 1em;
+	}
+	
+	nav li a:hover {
+		color: #a77171;
+		background-color: #5c0404;
+	}
+	
+	/* Desktop Viewport: Style Rules for main content */
+	main {
+		clear: left;
+	}
+	
+
+
+/* Media Query for Large Desktop Viewports */
+	@media screen and (min-width: 1921px) {
+		
+		#container {
+			width: 1920px;
+			margin: 0 auto;
+		}
+	}
+	
+}
+
+/* Media Query for Print */
+@media print {
+	
+	body {
+		background-color: #fff;
+		color: #000;
+	}
+}

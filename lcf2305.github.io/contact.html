@@ -1,0 +1,109 @@
+<!-- Romika Chaudhary, C0921918 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blend Beyond</title>
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <link rel="stylesheet" href="css/contact.css" class="css">
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- Use the header area for the website name or logo -->
+        <header>
+            <a href="index.html">
+            <img src="Images/logo.png" alt="Logo Of Blend Beyond"></a>
+        </header>
+
+        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav>
+			<ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+        </nav>
+
+        <main>
+            <div id="contact">
+                <h2>Ready to get started? Contact us today.</h2>
+                <h4>Email us: <a href="mailto:info@blendbeyond.com" class="contact-email-link">info@blendbeyond.com</a></h4>
+                <h4>Visit us at: 1220 Lambton Mall, London Road</h4>
+            </div>
+            <div class="container">
+                <h1>Contact Us</h1>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <ol>
+                            <li>
+                                <label for="fullName"> Full Name:</label>
+                                <input type="text" id="fullName" name="fullName" autofocus required>
+                            </li>
+                            <li>
+                                <label for="email"> Email:</label>
+                                <input type="email" id="email" name="email" size="30" required>
+                            </li>
+                            <li>
+                                <label for="message"> Message:</label>
+                                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                            </li>
+                            <div id="radioBtn">
+                                <li>
+                                    <label for="gender"> Gender:</label><br>
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label><br>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Female</label><br>
+                                    <input type="radio" id="other" name="gender" value="other">
+                                    <label for="other">Other</label>
+                                </li>
+                            </div>
+                            
+                            <li>
+                                <label for="subscribe"> Subscribe to Newsletter:</label>
+                                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                            </li>
+                            <li>
+                                <label for="category"> Category:</label>
+                                <select id="category" name="category" required>
+                                    <option value="">Select a category</option>
+                                    <option value="general">General</option>
+                                    <option value="support">Support</option>
+                                    <option value="feedback">Feedback</option>
+                                </select>
+                            </li>
+                            <div class="button-container">
+                                <ul>
+                                    <button type="submit">Submit Request</button>
+                                    <button type="reset">Reset Form</button>
+                                </ul>
+                            </div>
+                            
+                        </ol>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <!-- Use the footer area to add webpage footer content -->
+        <footer>
+            <p>&copy; Copyright 2023. All Rights Reserved.
+                <br>
+                <a href="mailto:info@ecocleandent.com">info@blendbeyond.com</a>
+                <br>
+                Romika Chaudhary &nbsp;&nbsp; C0921918
+            </p>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+#contact, h1 {
+	text-align: center;
+}
+
+.container {
+	width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: calc(100% - 12px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.radioBtn {
+    display: inline-block;
+    width: 100px; 
+    text-align: right; 
+    margin-right: 10px; 
+}
+
+li input[type="radio"],
+li label {
+	padding: 5px;
+
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 5px; 
+}
+
+
+button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+}
+
+.button-container {
+    text-align: center;
+}

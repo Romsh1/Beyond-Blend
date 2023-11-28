@@ -1,0 +1,171 @@
+/*Romika Chaudhary
+  C0921918
+  Term Project - Blend Beyond */
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h3 {
+  font-size: 1.75em;
+  color: rgb(14, 14, 13); 
+  font-family: Noto Sans;
+}
+
+
+/* Style rules for header content  */
+header{
+  text-align: center;
+  font-size: 3em;
+  color: #373684;
+}
+
+
+/*Style rules for welcome page*/
+.welcome, .product {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 350px;
+  padding-top: 30px;
+  text-align: justify;
+}
+
+img {
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.welImg {
+  padding-left: 20px;
+}
+
+.welMsg {
+  padding-left: 70px;
+  text-align: justify;
+}
+
+.prodImg {
+  font-size: larger;
+  padding-left: 70px;
+  text-align: justify;
+}
+
+.prodMsg {
+  padding-left: 40px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.productOfWeek img{
+  border-radius: 20px;
+}
+
+
+/*Style rules for specials page*/
+#fchop, #pblend, #cblend {
+  width: 29%;
+  float: left;
+  margin: 0 2%;
+  text-align: justify;
+  }
+
+#fchop, #pblend, #cblend, p {
+  letter-spacing: -1px;
+}
+
+hr.dotted {
+    border-top: 3px dotted #bbb;
+  }
+
+header h1 {
+  font-style: italic;
+  color: #3498db;
+}
+
+/* Style rule for navigation area */
+nav {
+  background-color: #9EDDFF;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+nav img {
+  border-radius: 50%; 
+  width: 80px; 
+  height: 80px;
+  display: block; 
+  margin: 0px auto; 
+  padding: 0px auto;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 2em;
+}
+
+nav li a {
+  color: #fff;
+  text-align: center;
+  padding: 0.10em 0.5em;
+  text-decoration: none;
+}
+
+
+#logo {
+  position: absolute;
+  top: 115px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+} 
+
+#welMsg, #welImage {
+	margin: 0 2%;
+}
+
+
+#welImage {
+  border-radius: 10px;
+}
+
+/* Style rules for main content */
+
+main {
+  padding: 2%;
+  background-color: #e5e9fc;
+  overflow: auto;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+  font-size: 1.25em;
+  }
+
+
+
+/*Style rules for footer content*/
+footer {
+  font-size: medium;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #9EDDFF;
+}
+
+footer a {
+  color: #fffcfc;
+}

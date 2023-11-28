@@ -1,0 +1,55 @@
+/*
+Author: Romika Chaudhary
+File Name: style.css
+*/
+
+
+ /* Show mobile class, hide tablet-desktop class*/
+ .mobile{
+	display: block;
+ }
+
+ .tablet-desktop{
+	display: none;
+ }
+
+.tel-link{
+	background-color: #404040;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.tel-link a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+
+.hours{
+	margin-left: 10%;
+}
+
+.action {
+	font-size: 1.35em;
+	color: #245831;
+	font-weight: bold;
+	text-shadow: 5px 5px 8px #d67575;
+	text-align: center;
+}
+
+
+/* Media Query for Tablet Viewport */
+	@media screen and (min-width: 630px), print {
+	/* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+	.tablet-desktop {
+		display: block;
+	}
+
+	.mobile {
+		display: none;
+	}
+    }

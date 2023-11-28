@@ -1,0 +1,81 @@
+/*
+Author: Romika Chaudhary
+File Name: styles.css
+*/
+
+
+aside {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #0000ff;
+    text-shadow: 3px 3px 10px #a5a5db;
+}
+
+.blendTitle {
+    font-size: 1.35em;
+	color: #245831;
+	font-weight: bold;
+	text-shadow: 5px 5px 8px #d67575;
+	text-align: center;
+
+}
+
+.figure_ph figure {
+    position: relative;
+    max-width: 275px;
+    margin: 2% auto;
+    border: 8px solid #030407;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background: F8F0E5;
+    color: #f0e9e9;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px),
+print {
+
+    .figure_ph {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    aside {
+        grid-column: 1 / span 2;
+    }
+
+}
+
+
+/*Media Query for Desktop Viewport.*/
+
+@media screen and (min-width:769px),
+print {
+
+    .figure_ph {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 20px;
+
+    }
+
+    figcaption {
+        font-size: 1em;
+    }
+
+    aside {
+        grid-column: 1 / span 4;
+    }
+
+}
